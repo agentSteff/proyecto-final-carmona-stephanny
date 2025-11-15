@@ -1,26 +1,26 @@
-Proyecto Final Git y GitHub
-Estudiante: Stephanny Carmona Campos
+🚀 Proyecto Final Git y GitHub
+👤 Estudiante: Stephanny Carmona Campos
 
-Descripción
-Este proyecto simula un escenario real de trabajo colaborativo utilizando Git y GitHub. El objetivo fue aplicar conceptos de control de versiones, manejo de ramas, resolución de conflictos y documentación técnica, siguiendo una estructura profesional y buenas prácticas recomendadas en la industria.
+📝 Descripción
+Este proyecto simula un entorno real de trabajo colaborativo usando Git y GitHub. El objetivo principal es practicar control de versiones, ramas, resolución de conflictos y documentación técnica bajo buenas prácticas profesionales.
 
-Estructura del Repositorio
+📁 Estructura del Repositorio
 README.md: Documentación principal del proyecto.
 
-datos.xlsx: Archivo de datos con al menos tres filas y tres columnas.
+datos.xlsx: Tabla de datos (mínimo tres filas y columnas).
 
-registro.txt: Lista de miembros y carreras, modificado para provocar un conflicto.
+registro.txt: Lista de miembros y carreras, modificada para conflicto.
 
-/imagenes: Carpeta con capturas del conflicto y su resolución.
+/imagenes: Carpeta con todas las capturas del flujo y conflicto.
 
-Miembros del equipo
+👥 Miembros del equipo
 Ana Rodríguez – Ingeniería en Sistemas
 
 Luis Fernández – Diseño UX
 
 María Leiva – Ingeniería Electrónica / Arquitectura / Ingeniería Civil
 
-Comandos utilizados
+💻 Comandos utilizados
 bash
 cd "/c/Users/Usuario/proyecto-final-carmona-stephanny"
 echo "# Proyecto Final Git y GitHub" > README.md
@@ -52,15 +52,22 @@ git merge rama-B
 git add registro.txt
 git commit -m "Resolución final del conflicto en registro.txt"
 git add imagenes/conflicto.png imagenes/estructura.png imagenes/gitrepo.png imagenes/resuelto.png
-git commit -m "Agrega las imágenes de evidencia con nombres normalizados"
+git commit -m "Agrega imágenes de evidencia finales"
 git push
-Flujo de trabajo
-Para demostrar el manejo de conflictos en Git, se crearon dos ramas desde main. En ambas se modificó la misma línea en registro.txt (carrera de María Leiva). Al fusionarlas en main, Git detectó el conflicto y se resolvió manualmente integrando todas las especialidades en una sola línea. El proceso fue documentado paso a paso con capturas.
+⚙️ Flujo de trabajo
+Se crearon ramas desde main.
 
-Evidencia visual
-Conflicto generado en registro.txt
-Resolución manual del conflicto
-Estructura del proyecto en Windows
-Repositorio en GitHub
-Reflexión personal
-Durante la elaboración de este proyecto, enfrenté varios retos relacionados con la estructura del repositorio y la correcta gestión de ramas. Aprendí la importancia de documentar cada paso, verificar el estado de los archivos antes de hacer commits y cómo los conflictos surgen cuando varias ramas modifican la misma sección de un archivo. Resolver el conflicto manualmente permitió entender a profundidad cómo Git marca y permite fusionar ediciones sin perder información. Considero que este ejercicio fortalece la colaboración y la disciplina en equipos técnicos, y me dio confianza para futuros proyectos en equipos de desarrollo. Recomiendo, además, probar comandos adicionales y analizar la historia de commits para comprender el flujo completo del trabajo.
+Ambas ramas modificaron la misma línea en registro.txt.
+
+En el merge, Git detectó el conflicto y se resolvió combinando las versiones.
+
+Todo el proceso fue documentado con capturas de pantalla.
+
+🖼️ Evidencia visual
+⚡️ Conflicto generado en registro.txt
+✅ Resolución manual del conflicto
+💼 Estructura del proyecto
+🌐 Vista final en GitHub
+
+💭 Reflexión personal
+Durante la elaboración de este proyecto, enfrenté retos al estructurar el repositorio y organizar las ramas. Aprendí a documentar cada paso, comprobar archivos antes de hacer commit y a resolver conflictos manualmente por misma, comprendiendo cómo Git me facilita la integración de cambios. El ejercicio me fortalece la colaboración y me fomenta la disciplina para proyectos reales de desarrollo queme encuentro actualmente.
